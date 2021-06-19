@@ -1,4 +1,4 @@
-# ▷ ChatEmotes PE (😋)
+## ▷ ChatEmotes PE (😋)
 ChatEmotes in Pocketmine
 
 ## ▷ Commands (⌨️)
