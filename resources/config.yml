@@ -1,0 +1,9 @@
+## ChatEmotes Plugin
+
+prefix: "§8[§aChat§cEmotes§8] §8▷ §7"
+noIngame: "§cDas kannst du nur Ingame§4!"
+
+# Emotes in Chat
+EmoteAngry: "§cist Böse§4!"
+EmoteSad: "§1ist Traurig§b!"
+EmoteHappy: "§aist Glücklich§2!"
