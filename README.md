@@ -2,7 +2,7 @@
 ChatEmotes in Pocketmine
 this is a Plugin where you can send per Commands your Feeling about you ^^
 
-## ▷ Commands (⌨️)
+## ▷ Commands of Plugin (⌨️)
  Here you can see The Commands
  /sad
  /angry
