@@ -4,9 +4,9 @@ this is a Plugin where you can send per Commands your Feeling about you ^^
 
 ## ▷ Commands (⌨️)
  Here you can see The Commands
-- /sad
-- /angry
-- /happy
+ /sad
+ /angry
+ /happy
 
 ## ▷ Todo List (📋)
 - More Commands / Emotes (❌)
