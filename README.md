@@ -2,7 +2,7 @@
 ChatEmotes in Pocketmine
 
 ## ▷ Commands (⌨️)
-/sad to send that you are *Sad*
+- /sad to send that you are *Sad*
 
 ## ▷ Todo List (📋)
 - More Commands / Emotes (❌)
