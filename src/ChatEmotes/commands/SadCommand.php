@@ -4,6 +4,8 @@
 namespace ChatEmotes\commands;
 
 use ChatEmotes\Main;
+use ChatEmotes\util\ConsoleUtil;
+use ChatEmotes\util\Emoter;
 use pocketmine\command\CommandSender;
 use pocketmine\command\defaults\VanillaCommand;
 use pocketmine\command\utils\CommandException;
@@ -22,11 +24,11 @@ class SadCommand extends VanillaCommand {
 
     public function execute(CommandSender $sender, string $commandLabel, array $args)
     {
-        $emoteCfg = new Config($this->plugin->getDataFolder() . "emotes.yml", 2);
+        //$emoteCfg = new Config($this->plugin->getDataFolder() . "emotes.yml", 2);
         if($sender instanceof Player){
-            $this->plugin->sendSad($sender);
+            Emoter::sendSad($sender, ":,(");
         } else {
-            $this->plugin->sendAlert($this->plugin->getConfig()->get("noIngame"));
+            ConsoleUtil::sendAlert($this->plugin->getConfig()->get("prefix") . $this->plugin->getConfig()->get("noIngame"));
         }
     }
 }

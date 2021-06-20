@@ -2,33 +2,31 @@
 
 namespace ChatEmotes\commands;
 
-use ChatEmotes\ConsoleUtils;
 use ChatEmotes\Main;
 use ChatEmotes\util\ConsoleUtil;
-use ChatEmotes\util\Emoter;
 use pocketmine\command\CommandSender;
 use pocketmine\command\defaults\VanillaCommand;
 use pocketmine\command\utils\CommandException;
 use pocketmine\Player;
-use pocketmine\utils\Config;
 
-class AngryCommand extends VanillaCommand {
+class EmoteListCommand extends VanillaCommand {
 
     private $plugin;
 
-    public function __construct(Main $plugin)
-    {
+    public function __construct(Main $plugin){
         $this->plugin = $plugin;
-        parent::__construct("angry", "sende das du Angry bist!", "/angry");
+        parent::__construct("emotelist", "sends you the Emotelist", "/emotelist or emlist", ["emlist"]);
     }
 
 
     public function execute(CommandSender $sender, string $commandLabel, array $args)
     {
-        $p = $sender;
-        $name = $p->getName();
         if($sender instanceof Player){
-            Emoter::sendAngry($sender, "o.O");
+            $p = $sender;
+            $p->sendMessage("§8");
+            $p->sendMessage($this->plugin->getConfig()->get("prefix") . "§7Open now a Gui");
+            sleep(1);
+            $this->plugin->openEmotesList($p);
         } else {
             ConsoleUtil::sendAlert($this->plugin->getConfig()->get("prefix") . $this->plugin->getConfig()->get("noIngame"));
         }

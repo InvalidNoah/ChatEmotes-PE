@@ -5,6 +5,8 @@ namespace ChatEmotes\commands;
 use ChatEmotes\ConsoleUtils;
 use ChatEmotes\Main;
 use ChatEmotes\sendEmote;
+use ChatEmotes\util\ConsoleUtil;
+use ChatEmotes\util\Emoter;
 use pocketmine\command\CommandSender;
 use pocketmine\command\defaults\VanillaCommand;
 use pocketmine\command\utils\CommandException;
@@ -25,10 +27,9 @@ class HappyCommand extends VanillaCommand {
     {
         if($sender instanceof Player){
             $p = $sender;
-            $p->sendMessage($this->plugin->getConfig()->get("prefix") . "§7Sende das du §aHappy §7bist§4!");
-            $this->plugin->sendHappy($sender);
+            Emoter::sendHappy($sender, "^^");
         } else {
-            $this->plugin->sendAlert($this->plugin->getConfig()->get("noIngame"));
+            ConsoleUtil::sendAlert($this->plugin->getConfig()->get("prefix") . $this->plugin->getConfig()->get("noIngame"));
         }
     }
 }
