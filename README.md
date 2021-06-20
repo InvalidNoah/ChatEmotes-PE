@@ -7,10 +7,15 @@ this is a Plugin where you can send per Commands your Feeling about you ^^
 ### ▷ Todo List 📋
 Todo list for the Plugin 
 
-| Todo | |Description |
+<!--| Todolist | | Description |
 | ------ | ----------- |
 | - More Commands / Emotes (❌) | Adding more Emotes to the *Plugin*! |
-| - Adding an Updater (❌) | Update for newsest Versionpost! |
+| - Adding an Updater (❌) | Update for newsest Versionpost! |-->
+
+| Todo | Description |
+| :------| :-----------|
+| More Commands / Emotes (❌)   | Adding more Emotes to the *Plugin*! |
+| Adding an Updater (❌) | Update for newsest Versionpost! |
 
 
 
