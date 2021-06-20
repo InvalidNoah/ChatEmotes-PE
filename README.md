@@ -7,11 +7,14 @@ this is a Plugin where you can send per Commands your Feeling about you ^^
 ### ▷ Todo List 📋
 Todo list for the Plugin 
 
-- More Commands / Emotes (❌)
-- Chatformat Async (❌)
+| Todo | |Description |
+| ------ | ----------- |
+| - More Commands / Emotes (❌) | Adding more Emotes to the *Plugin*! |
+| - Adding an Updater (❌) | Update for newsest Versionpost! |
 
 
-### ▷ Kommandos
+
+### ▷ Commands
  Here you can see The Commands
 | Command | Description |
 | ------ | ----------- |
@@ -19,6 +22,7 @@ Todo list for the Plugin
 | ``/sad`` | Send a message to the chat with which other people know that they are sad |
 | ``/angry``    | Send a message to the chat with which other people know that they are angry |
 | ``/chatemotes`` or ``/ce`` | Sends Information about the *Plugin*! |
+| ``/emotelist`` or ``/emlist`` | Sends you the Emote list from the *Plugin*! |
 
 ### ▷ Showcase
 
