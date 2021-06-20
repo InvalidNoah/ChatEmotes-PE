@@ -22,9 +22,7 @@ Todo list for the Plugin
 
 ### ▷ Showcase
 
-```php
-$p->sendMessage($this->plugin->getConfig()->get("prefix") . "§7Sende das du §aHappy §7bist§4!");
-```
+![Showcase of Happy Command](https://github.com/byNoahLP/ChatEmotes-PE/blob/main/Showcase.png)
 
 ### ▷ About the Developer 🤖
 
