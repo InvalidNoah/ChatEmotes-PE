@@ -20,6 +20,9 @@ Todo list for the Plugin
 | ``/angry``    | Send a message to the chat with which other people know that they are angry |
 | ``/chatemotes`` or ``/ce`` | Sends Information about the *Plugin*! |
 
+### ▷ Showcase
+
+$p->sendMessage($this->plugin->getConfig()->get("prefix") . "§7Sende das du §aHappy §7bist§4!");
 
 ### ▷ About the Developer 🤖
 
