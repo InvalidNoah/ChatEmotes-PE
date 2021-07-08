@@ -39,5 +39,5 @@ About me c:
 
 I have a Discord [``Join my Discord``](https://red.serverfarmer.at/discord "Join overhere ^^")<br>
 Here you can Sub to [*``My Youtube Channel``*](https://red.serverfarmer.at/youtube "Sub to Me ^^")
-[![](https://poggit.pmmp.io/shield.state/ChatEmotes)](https://poggit.pmmp.io/p/ChatEmotes)
+PMMP Status - [![](https://poggit.pmmp.io/shield.state/ChatEmotes)](https://poggit.pmmp.io/p/ChatEmotes)
 
