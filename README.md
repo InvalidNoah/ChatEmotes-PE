@@ -30,7 +30,7 @@ Todo list for the Plugin
 | ``/emotelist`` or ``/emlist`` | Sends you the Emote list from the *Plugin*! |
 
 ### ▷ Showcase
-
+Here is a *Showcase*
 ![Showcase of Happy Command](https://github.com/byNoahLP/ChatEmotes-PE/blob/main/Showcase.png)
 
 ### ▷ About the Developer 🤖
