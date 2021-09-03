@@ -4,6 +4,6 @@ branches:
 - main
 projects:
   ChatEmotes-PE:
-    path: "https://raw.githubusercontent.com/eyNoah/ChatEmotes-PE/main/icon.gif"
-    icon: "https://raw.githubusercontent.com/eyNoah/ChatEmotes-PE/main/icon.gif"
+    path: "imgs/"
+    icon: "Noah.gif"
 ...
