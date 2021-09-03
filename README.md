@@ -41,3 +41,6 @@ I have a Discord [``Join my Discord``](https://red.serverfarmer.at/discord "Join
 Here you can Sub to [*``My Youtube Channel``*](https://red.serverfarmer.at/youtube "Sub to Me ^^")<br>
 PMMP Status - [![](https://poggit.pmmp.io/shield.state/ChatEmotes)](https://poggit.pmmp.io/p/ChatEmotes)
 
+### ▷ About my Plugins
+
+Hello, im gonna do Plugins for free!
