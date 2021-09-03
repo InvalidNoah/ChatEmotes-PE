@@ -4,6 +4,6 @@ branches:
 - main
 projects:
   ChatEmotes-PE:
-    path: "imgs/"
+    path: "/"
     icon: "Noah.gif"
 ...
