@@ -5,6 +5,7 @@ namespace ChatEmotes;
 use ChatEmotes\commands\AngryCommand;
 use ChatEmotes\commands\HappyCommand;
 use ChatEmotes\commands\SadCommand;
+use ChatEmotes\commands\EmoteListCommand;
 use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
@@ -25,6 +26,7 @@ class Main extends PluginBase {
         $map->register("sad", new SadCommand($this));
         $map->register("angry", new AngryCommand($this));
         $map->register("happy", new HappyCommand($this));
+        $map->register("emotelist", new EmoteListCommand($this));
     }
 
     public function sendHappy(Player $p){
